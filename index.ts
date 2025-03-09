@@ -21,7 +21,7 @@ async function fetchImage(url) {
     }
 
     const id = randomItem.source.split("/")[randomItem.source.split("/").length - 1];
-    return Response.redirect(`https://pixiv.cat/${id}.png`);   
+    return Response.redirect(`https://pixiv.cat/${id}.jpg`);   
 }
 
 export default {
